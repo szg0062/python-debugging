@@ -31,6 +31,7 @@ def area_of_rectangle(height, width = None):
     """
     if width:
         width = int(width)
+        height = int(height)
     area = height * width
     return area
 
